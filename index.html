@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=`, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/slider.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="/js/tabs.js"></script>
+    <link rel="stylesheet" href="/css/tabs.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__upper header__container">
+        <div class="upper__logo">
+          <div class="logo__img">
+            <img src="/img/logo.png" alt="Логотип" />
+          </div>
+          <div class="logo__description">
+            <p class="logo__text">
+              Акционерное общество <br />Рязанское производсвтенно-техническое
+              предприятие <br />Гранит
+            </p>
+          </div>
+        </div>
+        <div class="upper__contacts">
+          <div class="contacts__number contacts">
+            <div class="contacts__logo">
+              <img class="contacts__icon" src="/img/whiteMai;.svg" alt="" />
+            </div>
+            <div class="contacts__text">
+              <span class="contacts__description"> info@mail.ru </span>
+              <span class="contacts__description">
+                <a href="#" class="contacts__link">Написать нам</a>
+              </span>
+            </div>
+          </div>
+          <div class="contacts__mail contacts">
+            <div class="contacts__logo">
+              <img class="contacts__icon" src="/img/PhoneIcon.svg" alt="" />
+            </div>
+            <div class="contacts__text">
+              <span class="contacts__description"> +7(925)-333-53-53 </span>
+              <span class="contacts__description"> +7(925)-333-53-53 </span>
+            </div>
+          </div>
+          <div class="contacts__location contacts">
+            <div class="contacts__logo">
+              <img class="contacts__icon" src="/img/location_Icon.svg" alt="" />
+            </div>
+            <div class="contacts__text">
+              <span class="contacts__description">
+                Ул.Интернациональная 1г
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Raleway:wght@500&family=Roboto+Slab&family=Source+Sans+Pro:wght@600&display=swap"
+        rel="stylesheet"
+      />
+
+      <!-- <div class="header__bottom">
+        <div class="bottom__menu">
+          <nav class="menu">
+            <ul class="menu__item">
+              <li class="menu__li">
+                <a class="menu__link" href="#">Главная</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">О предприятии</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">Новости</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">Закупки</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">Пресс-центр</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">Документы</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">Вакансии</a>
+              </li>
+              <li class="menu__li">
+                <a class="menu__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div> -->
+    </div>
+    <div id="block-for-slider" class="block">
+      <div id="viewport">
+        <ul id="slidewrapper">
+          <li class="slide">
+            <div class="slide-img"></div>
+            <div class="slider__text">
+              Акционерное общество <br />Рязанское производсвтенно-техническое
+              предприятие <br />Гранит - небо в надежных руках!
+            </div>
+          </li>
+          <li class="slide">
+            <img src="/img/slide2/1.jpg" class="slide-img" />
+            <div class="slider__text">
+              Акционерное общество "Рязанское производственно - <br />
+              техническое предприятие "Гранит" является <br />
+              гарантом качества и надёжности для своих <br />заказчиков.
+            </div>
+          </li>
+          <li class="slide">
+            <img src="/img/slide2/2.jpg" class="slide-img" />
+            <div class="slider__text">
+              Органами управления АО "РПТП "Гранит" являются: <br />
+              Общее собрание акционеров,<br />
+              Совет директоров, <br />
+              Единоличный исполнительный орган <br />
+              (Генеральный директор).
+            </div>
+          </li>
+        </ul>
+        <div id="prev-next-btns">
+          <div id="prev-btn">
+            <img src="/img/slide/left.png" class="slider-btn-img" />
+          </div>
+          <div id="next-btn">
+            <img src="/img/slide/right.png" class="slider-btn-img" />
+          </div>
+        </div>
+
+        <ul id="nav-btns">
+          <li class="slide-nav-btn" value="1"></li>
+          <li class="slide-nav-btn" value="2"></li>
+          <li class="slide-nav-btn" value="3"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="information">
+      <div class="container">
+        <div class="tabs">
+          <div class="tabs__nav tabs-nav">
+            <div class="tabs-nav__item is-active" data-tab-name="tab-1">
+              О предприятии
+            </div>
+            <div class="tabs-nav__item" data-tab-name="tab-2">
+              Органы управления
+            </div>
+            <div class="tabs-nav__item" data-tab-name="tab-3">
+              Гостиница"Ока"
+            </div>
+          </div>
+          <div class="tabs__content">
+            <div class="tab is-active tab-1">
+              <div class="tab__item">
+                <div class="tab__description">
+                  <div class="tab__title">Предприятие АО"РПТП"Гранит"</div>
+                  <span class="tab__text"
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iste provident doloremque unde aliquam rem, aliquid
+                    accusantium dolores quisquam reiciendis, cum itaque
+                    dignissimos, totam dolor fugiat. Suscipit culpa omnis ea
+                    eveniet!</span
+                  >
+                </div>
+                <div class="tab__image">
+                  <img src="/img/slide/1.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="tab tab-2">
+              <div class="tab__item">
+                <div class="tab__description">
+                  <div class="tab__title">Органы управления</div>
+                  <span class="tab__text"
+                    >Органами управления АО "РПТП "Гранит" являются: Общее
+                    собрание акционеров, Совет директоров, Единоличный
+                    исполнительный орган (Генеральный директор).</span
+                  >
+                </div>
+                <div class="tab__image">
+                  <img src="/img/slide/1.2.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="tab tab-3">
+              <div class="tab__item">
+                <div class="tab__description">
+                  <div class="tab__title">Гостиница «ОКА»</div>
+                  <span class="tab__text"
+                    >Гостиница «Ока» распахнула двери для своих гостей в апреле
+                    2005 года. Название «Ока» было выбрано не случайно, очень
+                    хотелось сделать акцент на том, что присутствие специалистов
+                    Рязанского «Гранита» всерьез и надолго. Здание гостиницы
+                    имеет два этажа. В распоряжении гостей уютные одно- и
+                    двухместные номера, каждый из которых оснащен
+                    сплит-системой, холодильником, телевизором с приемом порядка
+                    30 ТВ-каналов, душевой кабиной, туалетом.
+                  </span>
+                </div>
+                <div class="tab__image">
+                  <img src="/img/tabs/oka.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="container">
+        <div class="news__body">
+          <div class="news__item">
+            <div class="news__img img_01"></div>
+            <div class="news__description">
+              <div class="news__title">Отдел АСУ работает на износ !</div>
+              <div class="news__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur voluptatum debitis iste eum dignissimos laboriosam
+                cupiditate labore commodi, fuga error inventore consequatur,
+                perspiciatis vitae fugiat cum qui quae nobis ipsam?
+              </div>
+              <div class="news__autor">Владимир зайцев</div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__img img_02"></div>
+            <div class="news__description">
+              <div class="news__title">Производим новую разработку</div>
+              <div class="news__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur voluptatum debitis iste eum dignissimos laboriosam
+                cupiditate labore commodi, fuga error inventore consequatur,
+                perspiciatis vitae fugiat cum qui quae nobis ipsam?
+              </div>
+              <div class="news__autor">Владимир зайцев</div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__img img_03"></div>
+            <div class="news__description">
+              <div class="news__title">РПТП"ГРАНИТ" выходит на новый уровень</div>
+              <div class="news__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur voluptatum debitis iste eum dignissimos laboriosam
+                cupiditate labore commodi, fuga error inventore consequatur,
+                perspiciatis vitae fugiat cum qui quae nobis ipsam?
+              </div>
+              <div class="news__autor">Пресс-сектор</div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__img img_03"></div>
+            <div class="news__description">
+              <div class="news__title">РПТП"ГРАНИТ" выходит на новый уровень</div>
+              <div class="news__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur voluptatum debitis iste eum dignissimos laboriosam
+                cupiditate labore commodi, fuga error inventore consequatur,
+                perspiciatis vitae fugiat cum qui quae nobis ipsam?
+              </div>
+              <div class="news__autor">Пресс-сектор</div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__img img_01"></div>
+            <div class="news__description">
+              <div class="news__title">РПТП"ГРАНИТ" выходит на новый уровень</div>
+              <div class="news__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur voluptatum debitis iste eum dignissimos laboriosam
+                cupiditate labore commodi, fuga error inventore consequatur,
+                perspiciatis vitae fugiat cum qui quae nobis ipsam?
+              </div>
+              <div class="news__autor">Пресс-сектор</div>
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__img img_02"></div>
+            <div class="news__description">
+              <div class="news__title">РПТП"ГРАНИТ" выходит на новый уровень</div>
+              <div class="news__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Aspernatur voluptatum debitis iste eum dignissimos laboriosam
+                cupiditate labore commodi, fuga error inventore consequatur,
+                perspiciatis vitae fugiat cum qui quae nobis ipsam?
+              </div>
+              <div class="news__autor">Пресс-сектор</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="contact__maps">
+        <div class="contact__information">
+          <div class="information__header contact">
+            <p>Контактная информация:</p>
+          </div>
+          <div class="information__description">
+            <div class="information__header">Адрес</div>
+            <span class="information__description"
+              >Российская Федерация, 390039, г. Рязань, ул. Интернациональная,
+              д.1Г
+            </span>
+            <div class="information__header">
+              Приемная генерального директора
+            </div>
+            <span class="information__description"
+              >Телефон: (4912) 30-40-00
+            </span>
+            <div class="information__header">Канцелярия:</div>
+            <span class="information__description"
+              >Факс: (4912) 49-11-35, 37-84-41,<br />
+              Телефон: (4912) 30-40-25,<br />
+              Электронная почта: office@rptp.org
+            </span>
+          </div>
+        </div>
+        <div style="position: relative; overflow: hidden">
+          <a
+            href="https://yandex.ru/maps/org/granit/243678524197/?utm_medium=mapframe&utm_source=maps"
+            style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+            >Гранит</a
+          ><a
+            href="https://yandex.ru/maps/11/ryazan/category/design_institute/184107419/?utm_medium=mapframe&utm_source=maps"
+            style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+            >Проектная организация в Рязани</a
+          ><a
+            href="https://yandex.ru/maps/11/ryazan/category/management_company/184105510/?utm_medium=mapframe&utm_source=maps"
+            style="color: #eee; font-size: 12px; position: absolute; top: 28px"
+            >Офис организации в Рязани</a
+          ><iframe
+            src="https://yandex.ru/map-widget/v1/?ll=39.645276%2C54.681285&mode=search&oid=243678524197&ol=biz&z=17.07"
+            frameborder="1"
+            allowfullscreen="true"
+            style="position: relative"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer__item">
+        <a class="footer__link" href="#">
+          <img class="footer__icon" src="/img/footer/1.png" alt="" />
+        </a>
+        <a class="footer__link" href="#">
+          <img class="footer__icon" src="/img/footer/2.png" alt="" />
+        </a>
+        <a class="footer__link" href="#">
+          <img class="footer__icon" src="/img/footer/3.png" alt="" />
+        </a>
+      </div>
+      <div class="footer__desc">
+        <span>© АО "РПТП "Гранит", 2023</span>
+      </div>
+    </div>
+  </body>
+</html>
